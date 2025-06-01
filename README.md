@@ -1,23 +1,25 @@
-# Movie-Recommendation-System-
-This project builds a content-based movie recommendation system using Python and machine learning techniques. It analyzes movie metadata — including genres, cast, crew, and keywords — to suggest similar movies based on user input.
-Key Features:
-Data cleaning and preprocessing of movie metadata
+# Movie Recommendation System 🎥✨
+A content-based movie recommendation system that suggests similar movies based on genres, cast, crew, and keywords using natural language processing and machine learning.
 
-Text vectorization using CountVectorizer
 
-Cosine similarity for movie similarity scoring
+Features
+Clean and preprocess movie metadata
 
-Custom recommendation function to find top similar movies
+Convert text data into numerical vectors using CountVectorizer
 
-Efficient handling of large movie datasets
+Calculate movie similarity using cosine similarity
 
-Technologies:
-Python, pandas, numpy
+Recommend top 5 movies similar to a given movie title
 
-scikit-learn (CountVectorizer, cosine similarity)
+Stemming to improve text normalization
 
-NLTK (for text stemming)
+Technologies Used
+Python 3.x
 
-Jupyter Notebook for development & visualization
+pandas & numpy
 
-Perfect for learning natural language processing, recommender systems, and machine learning fundamentals.
+scikit-learn
+
+NLTK
+
+Jupyter Notebook
